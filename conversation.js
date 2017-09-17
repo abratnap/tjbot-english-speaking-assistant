@@ -30,9 +30,12 @@ var hardware = ['microphone', 'speaker'];
 var tjConfig = {
     log: {
         level: 'verbose'
-    }
+    },
+    robot: {
+        gender: 'female', // see TJBot.prototype.genders
+        name: 'Anvi'
+    },
 };
-
 // instantiate our TJBot!
 var tj = new TJBot(hardware, tjConfig, credentials);
 

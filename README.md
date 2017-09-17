@@ -11,10 +11,6 @@ This recipe requires a TJBot with a microphone and a speaker.
 First, make sure you have configured your Raspberry Pi for TJBot.
 
     $ cd tjbot/bootstrap && sudo sh bootstrap.sh
-
-Go to the `recipes/conversation` folder and install the dependencies.
-
-    $ cd ../recipes/conversation
     $ npm install
 
 Create instances of the [Watson Conversation](https://www.ibm.com/watson/developercloud/conversation.html) and [Watson Text to Speech](https://www.ibm.com/watson/developercloud/text-to-speech.html) services and note the authentication credentials.
@@ -31,7 +27,7 @@ Run!
 
     sudo node conversation.js
 
-> Note the `sudo` command. Root user access is required to run TJBot recipes.
+> Note the `sudo` command. Root user access is required to run
 
 # Watson Services
 - [Watson Conversation](https://www.ibm.com/watson/developercloud/conversation.html)
