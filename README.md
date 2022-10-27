@@ -2,7 +2,7 @@
 > Chat with TJBot!
 This is a English speaking assistant for Kids not having English as their mother tongue.
 
-This recipe uses the [Watson Conversation](https://www.ibm.com/watson/developercloud/conversation.html) and [Watson Text to Speech](https://www.ibm.com/watson/developercloud/text-to-speech.html) services to turn TJ into a chatting robot.
+This recipe uses the [Watson Conversation](https://www.ibm.com/watson/developercloud/conversation.html) and [Watson Text to Speech](https://www.ibm.com/watson/developercloud/text-to-speech.html) services to turn [TJ Bot](https://ibmtjbot.github.io/) into a chatting robot.
 
 ## Hardware
 This recipe requires a TJBot with a microphone and a speaker.
